@@ -1,5 +1,6 @@
 # Python Pulumi Project
 This directory contains a Pulumi project implemented in Python. It is designed to manage cloud infrastructure using Pulumi's infrastructure as code (IaC) capabilities.
+It automatically adds tags to all resources using the `autotag` module. It will help you manage and track your cloud resources effectively for billing and organization purposes.
 
 ## Project Structure
 - `__main__.py`: The main entry point for the Pulumi program. It initializes the configuration and triggers the deployment of the specified service.
