@@ -1,0 +1,12 @@
+{
+    "name": "typescript",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^18",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@pulumi/pulumi": "^3.214.1",
+        "@pulumi/aws": "^7.15.0"
+    }
+}
